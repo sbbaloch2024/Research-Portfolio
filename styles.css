@@ -1,0 +1,219 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+                line-height: 1.6;
+    margin-top: 0; /* Remove any top margin */
+    margin-bottom: 0px; /* Reduce bottom margin */
+
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left; 
+
+    th:nth-child(1), td:nth-child(1) { width: 30%; } /* Wider */
+    th:nth-child(2), td:nth-child(2) { width: 15%; } /* Thinner */
+    th:nth-child(3), td:nth-child(3) { width: 30%; } /* Medium */
+    th:nth-child(4), td:nth-child(4) { width: 15%; } /* Thinner */
+
+}
+th {
+    background-color: black;
+    color: white;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+
+
+.experience {
+background: #f8f9fa; /* Soft background for contrast */
+padding: 15px;
+border-radius: 5px;
+transition: transform 0.2s ease-in-out;
+}
+
+.experience:hover {
+transform: scale(1.02); /* Slight hover effect */
+}
+
+.location {
+    float:right
+}
+
+.title {
+font-size: 1.3em;
+font-weight: 700;
+color: black;
+margin-bottom: 5px;
+}
+
+.supervisors, .location {
+font-size: 0.95em;
+font-style: italic;
+color: #555;
+}
+
+.description {
+margin-top: 10px;
+}
+
+.description ul {
+padding-left: 20px;
+}
+
+.description ul li {
+font-size: 15px;
+position: relative;
+padding-left: 25px;
+}
+
+.description ul li::before {
+content: "•";
+position: absolute;
+left: 0;
+color: #002D62;
+font-size: 1.2em;
+font-weight: bold;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.supervisors, .location {
+    font-style: italic;
+}
+.description {
+    margin-top: 10px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 15px; /* Reduced overall font size */
+
+}
+
+/* Navbar Styles */
+nav {
+    font-family: 'Times New Roman', Times, serif;
+
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #002D62;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Picture Styles */
+.profile-pic {
+    width: 250px; /* Adjust the size as needed */
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 80px; /* Space to avoid navbar overlap */
+    margin-left: 40px;
+    margin-right: 10px;
+
+    border: 0.5px solid #333;
+}
+
+
+/* Content Section */
+.content {
+    margin-left: 30px; /* Space for the profile image */
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 60px; /* Space after navbar */
+  
+    
+}
+
+
+h1, h2 {
+    color: #333;
+
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.columns {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+.column {
+flex: 1;
+min-width: 400px;
+}
+
+/* Research & Work Experience Sections */
+h2 {
+font-size: 19px;
+border-bottom: 2px solid #ddd;
+padding-bottom: 5px;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+ul li {
+margin-bottom: 5px;
+font-size: 15px; /* Reduced overall font size */
+}
+
+ul li strong {
+font-weight: 600;
+color: #002D62;
+}
+
+ul ul {
+margin-top: 5px;
+padding-left: 25px;
+list-style-type: disc;
+}
+
+ul ul li {
+font-size: 1em;
+}
